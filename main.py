@@ -1,6 +1,7 @@
 from setup import Window
 from maze import Maze
 
+
 def main():
     num_rows = 12
     num_cols = 16
@@ -15,5 +16,5 @@ def main():
 
     win.wait_for_close()
 
+
 main()
-print("Code Ended")

@@ -19,6 +19,7 @@ class Window:
         self.__running = True
         while (self.__running == True):
             self.redraw()
+        print("window closed...")
     
     def close(self):
         self.__running = False
